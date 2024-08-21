@@ -4,7 +4,7 @@ Robotic process automation (RPA) is a technology that allows for the creation, d
 # Building 5 Bots to Automate tasks on UiPATH + Azure Lab
 
 
-## Weather Automation Workflow
+## Weather Automation Workflow - Bot #1
 This UiPath project automates the process of fetching weather information for any given city. It begins by prompting the user to enter a city name, then searches for the current weather on Google, and logs both the temperature and weather conditions. The workflow efficiently retrieves and displays relevant weather details using simple user interactions.
 
 ![Screenshot 2024-08-21 180441](https://github.com/user-attachments/assets/c435e55c-f63d-4333-8853-36234c03e534) 
