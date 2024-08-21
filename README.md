@@ -60,7 +60,38 @@ This workflow automates the process of fetching and logging weather details from
 
 
 
+## UiPath Web Data Handling Workflow - Bot #2
+This repository contains a UiPath workflow designed to automate the process of data extraction from a web application, specifically from a CRM-like system. The automation sequence involves reading customer data from an Excel file, inputting this data into a web form, and managing the customer information effectively within the application.
+
+This UiPath workflow demonstrates an automation process for extracting and handling data from a excel sheet to be entered in a web application.
 
 
+
+https://github.com/user-attachments/assets/948cae7e-9aa8-4e4f-a869-b379242875f0
+
+
+
+1. **Read Customer Data from Excel:** The workflow starts by reading customer data stored in an Excel file into a DataTable, which is then processed in subsequent steps.
+
+2. **Open Browser and Navigate to CRM:** A web browser is opened, and the workflow navigates to the CRM system where customer data will be managed.
+
+3. **Data Entry Automation:**
+   - For each customer (row in the DataTable), the workflow performs the following actions:
+     - Input the customer's first and last names into the corresponding fields in the web form.
+     - Depending on the gender specified in the Excel file, the workflow selects the appropriate gender option in the form.
+     - Other customer details such as address, city, and contact information are also entered into the form.
+
+4. **Submit Customer Data:** After all fields are filled, the workflow clicks the 'Add' button to submit the data, thereby creating or updating a customer record in the CRM.
+
+5. **Error Handling and Logging:** Throughout the execution, the workflow includes error handling and logging mechanisms to ensure robust automation and ease of troubleshooting.
+
+**Tools and Technologies Used:**
+- UiPath Studio for workflow design and execution.
+- Excel for storing initial customer data.
+- Web-based CRM system for customer data management.
+
+**Purpose and Benefits:**
+- Automates repetitive data entry tasks, reducing manual effort and error rates.
+- Enhances data processing speed and accuracy in customer relationship management.
 
 
