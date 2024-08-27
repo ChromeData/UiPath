@@ -95,3 +95,38 @@ https://github.com/user-attachments/assets/948cae7e-9aa8-4e4f-a869-b379242875f0
 - Enhances data processing speed and accuracy in customer relationship management.
 
 
+## Real Estate Web Scraping - Bot #3
+A user enters a city name, the robot then scrapes thousands of real estate listing data in that city off the web. The data is then exported into a MS Excel spreadsheet, including the prices of the property, number of bedrooms, number of bathrooms and suburb location.
+
+https://github.com/user-attachments/assets/8a485b50-77e5-4528-bed2-f17320a8a456
+
+
+### **1. Main Sequence**
+- **Step:** The main sequence initiates the workflow, setting up any necessary variables or configurations, such as the search parameters for properties on Zillow.
+
+### **2. Open Browser and Navigate to Zillow**
+- **Step:** The workflow opens a browser and navigates to Zillow.com. This step is essential to start the property search process on the Zillow website.
+
+### **3. Input Property Search Criteria**
+- **Step:** The bot locates the search field on Zillow’s homepage and inputs specific criteria, such as a city, neighborhood, or zip code. This could also include filters like price range, number of bedrooms, or property type.
+
+### **4. Click Search Button**
+- **Step:** After entering the search criteria, the bot simulates a click on Zillow's "Search" button to retrieve a list of properties that match the entered criteria.
+
+### **5. Interact with Property Listings**
+- **Step:** The workflow processes the search results by clicking on a particular property listing, scrolling through the results, or filtering the listings further based on additional criteria (e.g., price, size, etc.).
+
+### **6. Extract or Read Property Information**
+- **Step:** The bot extracts specific information from the selected property listing, such as the address, price, square footage, number of bedrooms and bathrooms, and any other relevant details. This information might be stored in a file or used for further processing.
+
+### **7. Click Additional Buttons or Links (e.g., Schedule a Tour)**
+- **Step:** The bot interacts with additional buttons or links on the property listing page, such as scheduling a tour, contacting the real estate agent, or saving the property to a favorites list.
+
+### **8. Handle Pop-ups or Additional Pages (e.g., Sign-in or Registration)**
+- **Step:** If Zillow prompts a sign-in or registration pop-up, or if additional pages open, the bot will handle these by either logging in, filling out forms, or dismissing the pop-ups as needed.
+
+### **9. End Process or Close Browser**
+- **Step:** The final steps in the sequence involve ending the process cleanly by saving any extracted data, logging out if necessary, and closing the browser.
+
+### **Summary**
+This UiPath workflow is designed to automate a series of tasks on Zillow.com, from searching for properties based on specific criteria, interacting with the search results, extracting relevant property details, to handling any additional tasks like logging in or closing pop-ups. This bot allows users to efficiently gather property information without manual effort, making the property search process much quicker and more streamlined.
